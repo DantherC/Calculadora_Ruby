@@ -1,9 +1,6 @@
-require_relative "unary"
-
+require_relative "Unary"
 class Square < Unary
-
   def execute
-    @operand * @operand  
+    @operand * @operand
   end
-
-end
+  end

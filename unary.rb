@@ -1,12 +1,8 @@
-require_relative "operation"
-
+require_relative "Operation"
 class Unary < Operation
-
   attr_accessor :operand
   
-  def add_operand(param_op)
-    @operand = param_op
-
+  def add_operand(valor_Unary)
+    @Operand = valor_Unary
   end
-
 end

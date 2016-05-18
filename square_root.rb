@@ -1,5 +1,6 @@
-require_relative "unary"
-
+require_relative "Unary"
 class SquareRoot < Unary
-
-end
+  def execute
+    math.sqrt(@operand)
+  end
+  end

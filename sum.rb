@@ -1,9 +1,7 @@
-require_relative "binary"
+require_relative "Binary"
 
 class Sum < Binary
-
   def execute
-  @operand_1+@operand_2
+    @operation_1 + @operation_2 
   end
-
 end
